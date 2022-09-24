@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    background-image: url(imagens/amplifica_banner_blog_programaccca7acc83o.webp);
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1:hover {
+    opacity: .4;
+}
+
+h1:active {
+    opacity: .8;
+}
+
+h1 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+header {
+    margin: 15px 15px;
+    position: relative;
+    display: block;
+}
+a.quem{
+    background-color: black;
+    color: orange;
+    margin-right: 28px;
+    font-weight: bolder;
+}
+a.quem:hover{
+    opacity: .4;
+    color: red;
+
+}
+a.quem:active{
+    opacity: .8;
+    color: teal;    
+}
+
+a.metas{
+    margin-right: 28px;
+    background-color: black;
+    color: orange;
+    font-weight: bolder;
+}
+
+a.metas:hover{
+    opacity: .9;
+    color: red;
+
+}
+a.metas:active{
+    opacity: .8;
+    color: darkgreen;    
+}
+a.pessoas{
+    background-color: black;
+    color: orange;
+    font-weight: bolder;
+}
+a.pessoas:hover{
+    opacity: .4;
+    color: red;
+
+}
+a.pessoas:active{
+    opacity: .8;
+    color:darkblue;    
+}
